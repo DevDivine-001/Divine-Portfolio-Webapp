@@ -4,21 +4,21 @@ const MyExperience = () => {
   const Experience = [
     {
       id:1,
-      year:"2023",
-      role:"FrontEnd LEAD DEVELOPER",
-      path:"FrontEnd Developer"
+      role:"Role: Frontend Lead",
+      path:"Projects: Dirt2school ,work on Register & SignIn with APIs",
+      year:"Year: 2023",
 
     },
     {
       id:2,
-      year:"2023",
-      role:"Backend DEVELOPER",
-      path:"Work on Auth Developer, CURD"
+      year:"Year: 2023/2024",
+      role:"Role: Backend Developer",
+      path:"Projects: Work on Authentication systems, CURD"
 
     },
     {
       id:3,
-      year:"2023",
+      year:"Year: 2023",
       role:"UI/UX",
       path:""
 
@@ -27,21 +27,21 @@ const MyExperience = () => {
   const education = [
     {
       id:1,
-      year:"2023/2024",
+      year:"Year: 2023/2024",
       role:"Free CodeCamp",
-      path:"FrontEnd Developer"
+      path:"Role: FrontEnd Developer"
 
     },
     {
       id:2,
-      year:"2023",
-      role:"CodeLab",
-      path:"Backend Developer"
+      year:"Year: 2023",
+      role:"School: CodeLab",
+      path:"Role: Backend Developer & FrontEnd Developer & UI/UX"
 
     },
-    {
+    { 
       id:3,
-      year:"2024",
+      year:"Year: 2024",
       role:"Free CodeCamp",
       path:"Backend Developer"
 
@@ -57,9 +57,9 @@ const MyExperience = () => {
           {
             Experience.map((data) => (
               <div className="w-full justify-center max-sm:p-3 flex-col flex gap-2 rounded-xl max-lg:p-4 max-xl:p-20 max-2xl:p-8 hover:text-[#fff] hover:bg-[#a176f9] bg-[#140c1c] cursor-pointer" key={data.id} data-aos="fade-right">
-            <span className="text-[#fff]">{data.year}</span>
-            <b className="text-[#ffff]">{data.role}</b>
             <span className="text-[#fff]">{data.path}</span>
+            <b className="text-[#ffff]">{data.role}</b>
+            <span className="text-[#fff]">{data.year}</span>
           </div>
             ))
           }

@@ -45,7 +45,7 @@ const PortFolios = () => {
       <div className="flex justify-center items-center bg-[]">
         <span className="sm:text-sm md:text-md lg:text-lg xl:text-5xl text-[#fff]"> <Typewriter
   options={{
-    strings: ['This are my stack'],
+    strings: ['These are my stack'],
     autoStart: true,
     loop: true,
   }}

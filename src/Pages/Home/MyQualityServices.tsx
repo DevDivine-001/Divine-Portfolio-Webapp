@@ -5,25 +5,26 @@ const MyQualityServices = () => {
     {
       id:1,
       title:"01 Web Developer",
-      subtitle:"Web developers create functional, user-friendly websites and web applications. They may write code, develop and test new applications, or monitor site performance and traffic.",
+      subtitle:"I build functional websites, user-friendly websites, and web applications. I can write code, develop and test new applications, and monitor site performance and traffic.",
       icons:""
     },
     {
       id:2,
       title:"01 Frontend Developer",
-      subtitle:"A front end developer has one general responsibility: to ensure that website visitors can easily interact with the page. They do this through the combination of design.",
+      subtitle:"I ensure that website visitors can easily interact with the page. I can do this through the combination of design with functional.",
       icons:""
     },
     {
       id:3,
       title:"03 Backend Developer",
-      subtitle:"The backend refers to devices that respond to ending user activities or requests, for example, routers, network servers, and email servers.",
+      subtitle:"I refer to APIs that respond to end-to-end user activities or requests, for example, Updating, adding User routers, network servers, and email servers with authentication systems.",
       icons:""
     },
     {
       id:4,
       title:"04 UI/UX",
-      subtitle:"A UI/UX developer is a specialized software developer who focuses on creating user interfaces and user experiences for a variety of products",
+      subtitle:"I focus on creating user interfaces and user experiences for a variety of product design.",
+      // subtitle:"I specialized in software development focusing on creating user interfaces and user experiences for visitor's products design",
       icons:""
     },
 
@@ -34,7 +35,7 @@ const MyQualityServices = () => {
     <div className="flex flex-col items-center justify-center text-center
     max-2xl:w-[42%] gap-1 max-sm:w-full">
      <strong className="text-[#8f5bf8] sm:text-[30px] md:text-md lg:text-lg xl:text-5xl font-bold" data-aos="fade-in">My Quality Services</strong>
-      <text className="text-[#d8d5df] sm:text-sm lg:text-lg xl:text-sm text-center max-md:w-full max-sm:w-full" data-aos="fade-in">I put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</text>
+      {/* <text className="text-[#d8d5df] sm:text-sm lg:text-lg xl:text-sm text-center max-md:w-full max-sm:w-full" data-aos="fade-in">I put your ideas and thus your wishes in the form of a unique web project that inspires you and your customers.</text> */}
     </div>
     <div className="max-xl:h-[70vh] gap-3 max-lg:h-[85vh]">
    {

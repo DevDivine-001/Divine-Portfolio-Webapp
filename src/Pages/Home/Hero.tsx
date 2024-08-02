@@ -16,7 +16,7 @@ const Hero = () => {
   <div className="flex justify-between w-[90%] h-[80vh] border-none  bg-[]  flex-wrap gap-5 items-center" >
    <div className="w-[45%] h-[] bg-[#] max-sm:w-[80%] flex-col flex max-sm:gap-3 max-2xl:gap-7 max-xl:w-full">
     <span className="font-bold text-4xl sm:text-5xl lg:text-6xl text-[#f5f0fe]">
-        I'm Divine
+       Hello I'm Divine
       </span>
         <b className="font-bold text-2xl sm:text-3xl lg:text-5xl text-[#8f5bf8]">
           <Typewriter

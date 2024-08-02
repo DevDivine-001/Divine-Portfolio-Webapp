@@ -5,7 +5,7 @@ const SkillsData = [
     id:1,
     img:'https://pbs.twimg.com/profile_images/1785867863191932928/EpOqfO6d_400x400.png',
     title:'React',
-    rate:'85%'
+    rate:'87%'
   },
   {
     id:2,
@@ -17,13 +17,13 @@ const SkillsData = [
     id:3,
     img:'https://miro.medium.com/v2/resize:fit:1000/1*C24eNZfu0CT5fSTBt6IugA.png',
     title:'Typescript',
-    rate:'85%'
+    rate:'80%'
   },
   {
     id:4,
     img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhbP4rcqpqxOe_azxlyuxLDsqPvIoxEqMwXEJ6Qqb-wdsWP4PFF9sOGYa2IoLHLI9JhNc&usqp=CAU',
     title:'Tailwind Css',
-    rate:'85%'
+    rate:'95%'
   },
   {
     id:5,
@@ -46,7 +46,8 @@ const MySkills = () => {
       <div className="w-[90%] h-[88vh] bg-[] flex justify-between items-center flex-col gap-">
         
         <div className="flex flex-col w-[40%] bg-[#] h-[vh] gap-1 justify-center max-sm:w-full items-center max-sm:h-[] max-xl:w-full">  <b className="text-[#8f5bf8] font-bold sm:text-[30px] md:text-md lg:text-lg xl:text-5xl justify-center items-center" data-aos="zoom-in-up">My Skills</b>
-          <span className="text-[#f5f0fe] text-center"data-aos="zoom-in-up">I put your ideas and thus your wishes in the form of a unique web project that that!</span></div>
+          {/* <span className="text-[#f5f0fe] text-center"data-aos="zoom-in-up">I put your ideas and thus your wishes in the form of a unique web project that that!</span> */}
+          </div>
           
           <section className="w-full bg-[#] gap-3 justify-between items-center flex flex-wrap max-sm:w-full h-[] max-sm:h-auto">
       
