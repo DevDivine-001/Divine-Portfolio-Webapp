@@ -53,7 +53,7 @@ const Hero = () => {
                 data-aos-delay={data.aosDelay}
   
   >
-    <img src="https://i.im.ge/2024/07/29/VnD2WY.WhatsApp-Image-2024-07-29-at-11-07-14.jpeg" alt="" className="
+    <img src="https://i.im.ge/2024/08/05/fXwVk9.WhatsApp-Image-2024-07-29-at-11-07-14-removebg-1.png" alt="" className="
     w-full max-sm:h-[330px] max-sm:w-full rounded-xl max-xl:h-[400px] max-2xl:h-[460px] object-cover"/>
 
   </div> 
