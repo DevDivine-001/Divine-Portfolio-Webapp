@@ -4,9 +4,9 @@ import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
-    <footer className="w-[100%] h-[40vh] bg-[#0f0715] flex justify-center items-center">
-      <div className="flex w-[90%] min-h-[25vh] bg-[#] justify-center items-center">
-        <section className="flex flex-col justify-between items-center bg-[] w-[78%] gap-4 max-sm:w-full">
+    <footer className="w-full h-[40vh] bg-[#0f0715] flex justify-center items-center">
+      <div className="flex w-[90%] min-h-[25vh]  justify-center items-center">
+        <section className="flex flex-col justify-between items-center w-[78%] gap-4 max-sm:w-full">
           <div className="flex justify-center items-center flex-col gap-3 text-[#fff]">
             <DiCodeigniter size={100} color="#fff"/> <text className="text-sm sm:text">Divine Uwandu</text>
           </div>

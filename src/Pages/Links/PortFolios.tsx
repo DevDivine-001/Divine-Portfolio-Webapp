@@ -39,7 +39,7 @@ const PortFolios = () => {
   ]
   return (
     <>
-        <div className="w-[100%] h-[110vh] bg-[#0f0715] flex justify-center items-center">
+        <div className="w-full h-[110vh] bg-[#0f0715] flex justify-center items-center">
    
     <div className="w-[90%] h-[100vh] bg-[] flex flex-col gap-8 items-center justify-between">  
       <div className="flex justify-center items-center bg-[]">
@@ -51,9 +51,9 @@ const PortFolios = () => {
   }}
 /></span>
       </div>
-     <div className="flex bg-[#] justify-between max-sm:flex-col  flex-wrap w-full gap-3">
+     <div className="flex justify-between max-sm:flex-col  flex-wrap w-full gap-3">
        
-        <div className="w-[27%] bg-[#] h-[] max-sm:w-full gap-4 flex flex-col">
+        <div className="w-[27%] max-sm:w-full gap-4 flex flex-col">
           <b className="text-center flex text-[#8f5bf8]">Programming Languages</b>
          <div className="flex bg-[] w-[88%] flex-wrap justify-between gap-4">
           <div className="flex bg-[#140c1c] p-1  items-center justify-center gap-3 rounded-md">
@@ -70,7 +70,7 @@ const PortFolios = () => {
 
           
         </div>
-        <div className="w-[27%] bg-[#] h-[] max-sm:w-full gap-8 flex flex-col">
+        <div className="w-[27%]  max-sm:w-full gap-8 flex flex-col">
           <b className="text-center flex text-[#8f5bf8]">Frameworks</b>
          <div className="flex bg-[] w-[88%] flex-wrap justify-between gap-4">
           <div className="flex bg-[#140c1c] p-1  items-center justify-center gap-3 rounded-md">
@@ -105,9 +105,9 @@ const PortFolios = () => {
           </div>
          </div>
         </div>
-        <div className="w-[27%] bg-[] h-[] max-sm:w-full gap-8 flex flex-col">
+        <div className="w-[27%] max-sm:w-full gap-8 flex flex-col">
           <b className="text-center flex text-[#8f5bf8]">Tools & Platforms</b>
-         <div className="flex bg-[] w-[88%] flex-wrap justify-between gap-4">
+         <div className="flex  w-[88%] flex-wrap justify-between gap-4">
           <div className="flex bg-[#140c1c] p-1  items-center justify-center gap-3 rounded-md">
              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrBwq1RrWCvEBjqWcXcvMGzk_4WBRFx2JRyg&s" alt="" className="w-[35px] h-[35px] flex object-cover"/>
             <p className="text-[#fff]">Firebase</p>
@@ -155,7 +155,7 @@ const PortFolios = () => {
 
     </div>
     <div className="h-[100vh] bg-[#0f0715] w-full justify-center items-center flex">
-      <div className="h-[90vh] w-[90%] justify- items-center flex flex-col gap-6 bg-[]">
+      <div className="h-[90vh] w-[90%] justify- items-center flex flex-col gap-6">
         <span className="sm:text-sm md:text-md lg:text-lg xl:text-5xl text-[#8f5bf8]">
               My Recent Works
         </span>

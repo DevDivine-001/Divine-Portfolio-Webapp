@@ -5,7 +5,7 @@ const About = () => {
 
     return (
      <>
-        <div className="w-[100%] h-[150vh] bg-[#0f0715] flex justify-center items-center">
+        <div className="w-full h-[150vh] bg-[#0f0715] flex justify-center items-center">
      
     <div className="w-[90%] h-[135vh] bg-[] flex justify-between  flex-wrap gap-2">  
       <div className="w-[45%] max-sm:w-full">
@@ -15,10 +15,10 @@ const About = () => {
      data-aos-duration="2000"/>
 
       </div>
-      <div className="w-[50%] bg-[] max-sm:w-full gap-2 flex flex-col">
+      <div className="w-[50%] max-sm:w-full gap-2 flex flex-col">
         <div className="sm:text-sm md:text-md lg:text-lg xl:text-5xl text-[#fff]" data-aos="zoom-in-right">Meet Divine Uwandu</div>
         <span className="text-[#fff]" data-aos="zoom-in-left">I'm a skilled web developer with a keen eye for detail and a passion for creating seamless, user-friendly websites. With a solid foundation in HTML, CSS, and JavaScript, Node.js, MongoDB, I have the technical experience to bring complex web applications to life. I excel in both front-end and back-end development, ensuring that every project is not only visually appealing but also highly functional and responsive.</span>
-        {/* <span>expertise</span> */}
+    
         <p className="text-[#8f5bf8]"  data-aos="fade-right"
      data-aos-anchor="#example-anchor"
      data-aos-offset="500"

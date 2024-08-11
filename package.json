@@ -20,6 +20,7 @@
     "react-loading-indicators": "^1.0.0",
     "react-router-dom": "^6.25.1",
     "react-spinners": "^0.14.1",
+    "react-typed": "^2.0.12",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {

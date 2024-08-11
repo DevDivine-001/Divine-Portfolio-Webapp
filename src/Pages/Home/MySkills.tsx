@@ -42,37 +42,31 @@ const SkillsData = [
 
 const MySkills = () => {
   return (
-    <div className='w-[100%] h-[100vh] flex justify-center items-center bg-[#0f0715]'>
-      <div className="w-[90%] h-[88vh] bg-[] flex justify-between items-center flex-col gap-">
+    <section className='w-full h-screen flex justify-center items-center bg-[#0f0715] max-md:h-[200vh]'>
+      <div className="w-[90%] h-[70vh] flex flex-col justify-between  max-md:h-[185vh]">
+         <div className="w-full flex justify-center items-center">
+           <strong className="text-[#8f5bf8] sm:text-[50px] md:text-4xl lg:text-4xl xl:text-5xl font-bold ease-in-out duration-700 text-center" data-aos="fade-up">My Skills</strong>
+
+        </div>
+        <div className="w-full h-[78vh] flex  justify-between items-center max-md:flex-col max-md:h-auto gap-5">
+          {
+            SkillsData.map((data) =>(
+                   <div className="w-[15%] flex flex-col justify-center items-center max-md:w-[60%] max-xl:w-[220%]" key={data.id} data-aos="fade-up">
+            <div className="w-full flex items-center justify-center flex-col p-3 rounded-lg  ease-in-out duration-700  hover:bg-[#2a1454]">
+            <img src={data.img} alt="" className="w-full h-[18vh] rounded-lg hover:scale-105 cursor-pointer ease-in-out duration-700"/>
+             <strong className="text-[#8f5bf8] sm:text-[0px] md:text-md lg:text-md xl:text-xl font-bold ease-in-out duration-700 flex justify-center items-center hover:text-[#fff]">{data.rate}</strong>
+            {/* 
         
-        <div className="flex flex-col w-[40%] bg-[#] h-[vh] gap-1 justify-center max-sm:w-full items-center max-sm:h-[] max-xl:w-full">  <b className="text-[#8f5bf8] font-bold sm:text-[30px] md:text-md lg:text-lg xl:text-5xl justify-center items-center" data-aos="zoom-in-up">My Skills</b>
-          {/* <span className="text-[#f5f0fe] text-center"data-aos="zoom-in-up">I put your ideas and thus your wishes in the form of a unique web project that that!</span> */}
+
+             */}
+          </div> 
+          <span className="max-md:text-md font-medium text-[#dddddd]">{data.title}</span>
+           </div>
+            ))
+          }  
           </div>
-          
-          <section className="w-full bg-[#] gap-3 justify-between items-center flex flex-wrap max-sm:w-full h-[] max-sm:h-auto">
-      
-
-           
-
-   {
-               SkillsData.map((data) =>(
- <div className="text-center gap-2 flex flex-col"data-aos="zoom-in-up"><div className="box-content p-6 border-[1px] ... rounded-xl max-sm:p-4 gap-3 flex flex-col hover:bg-[#2a1454] cursor-pointer hover:text-[#8f5bf8]" key={data.id}>
-            <img  alt="" className="box-content h-[70px] w-[95px]  border-none rounded-xl ... " src={data.img}/>
-            
-           <div className="text-center h-[10px]"> <span className="text-center ">{data.rate}</span></div>
-          </div>
-          <span className="text-[#8f5bf8]">{data.title}</span></div>
-
-))
-}
-
-   
-</section>
-          <Link to="/portfolios" className="text-[#8f5bf8] font-bold sm:text-[] xl:text-[] justify-center items-center hover:text-[#fff] cursor-pointer">See More</Link>
-
-
       </div>
-    </div>
+    </section>
   )
 }
 

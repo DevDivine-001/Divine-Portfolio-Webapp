@@ -8,27 +8,60 @@ const project  = [
     id:1,
     img:"https://i.im.ge/2024/07/30/V491GJ.Screenshot-2024-07-30-120943.png",
     live:"https://ecom-website-dev.web.app/",
-    preview:"Live Preview"
+    preview:"Live Preview",
+    works:"E-commerce ",
   },
   {
     id:2,
     img:"https://i.im.ge/2024/07/30/VnkrCJ.Screenshot-2024-07-29-191013.png",
-    preview:"Live Preview",
-    live:"https://github.com/DevDivine-001/FULL-STACK-MERN-Divine-REAL-Estate.git"
+    preview:"Codebase Preview",
+    live:"https://github.com/DevDivine-001/FULL-STACK-MERN-Divine-REAL-Estate.git",
+    works:"Real-Estate",
   },
   {
     id:3,
     img:"https://i.im.ge/2024/07/30/V49qpz.Screenshot-2024-07-30-123713.png",
     live:"https://meet-and-greet-c01de.web.app/",
     // Live:"https://meet-and-greet-c01de.web.app/",
-     preview:"Live Preview"
+     preview:"Live Preview",
+     works:"Aledoy-Meet & Greet"
+
   },
   {
     id:4,
     img:school,
      preview:"Live Preview",
+     works:"Dirt2school.2",
      live:"https://dirt2school-web-app.web.app/"
   },
+  {
+    id:5,
+    img:"https://i.im.ge/2024/08/10/f2spI6.Screenshot-2024-08-09-233247.png",
+     preview:"Live Preview",
+     works:"Dirt2school.2",
+     live:"https://data-analytics-webapp.web.app/"
+  },
+  {
+    id:6,
+    img:school,
+     preview:"Live Preview",
+     works:"Dirt2school.2",
+     live:"https://dirt2school-web-app.web.app/"
+  },
+  {
+    id:7,
+    img:school,
+     preview:"Live Preview",
+     works:"Dirt2school.2",
+     live:"https://dirt2school-web-app.web.app/"
+  },
+  // {
+  //   id:8,
+  //   img:school,
+  //    preview:"Live Preview",
+  //    works:"Dirt2school.2",
+  //    live:"https://dirt2school-web-app.web.app/"
+  // },
 ]
 
 
@@ -38,73 +71,35 @@ const MyRecentProject = () => {
   return (
 
 
-<section className="flex bg-[#0F0715] h-[160vh] w-full justify-center items-center max-xl:h-[120vh] max-2xl:h-[180vh] max-lg:h-[170vh] max-sm:h-[170vh]">
-  <div className="flex justify-between w-[90%] h-[140vh] border-none flex-wrap gap-5 items-center flex-col max-xl:h-[110vh] max-2xl:h-[130vh] max-lg:h-[145vh]" > 
-     <div className="w-[46%] flex justify-center items-center flex-col text-center max-sm:w-full max-md:w-full max-lg:w-full max-xl:w-full bg-[]">
-         <b className="sm:text-[30px] md:text-md lg:text-lg xl:text-5xl text-[#8f5bf8]"data-aos="fade-up">My Recent Projects</b>
-         {/* <span className="sm:text-sm md:text-md lg:text-lg xl:text-sm text-[#f5f0fe]" data-aos="fade-left">We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</span> */}
-       </div>
-       <div className="w-full flex-wrap flex justify-between gap-5 items-center overflow-hidden">
-   
-    
-   
-    
-    
-    {
-      project.map((item, index) =>(
-        <div className="w-[40%] bg-[#140c1c] h-auto flex  items-center py-4  justify-center rounded-lg max-sm:w-full max-lg:w-full flex-col cursor-pointer" key={index} data-aos="zoom-in-right">
-  
-    <Link to="/portfolios" className="w-full flex justify-center items-center object-cover">
-    <img  alt="" className="w-[89%] h-[300px] bg-[] rounded-lg max-sm:h-[160px] max-lg:h-[235px] object-cover flex justify-center items-center" src={item.img}/>
-    </Link>
-   <a  href={item.live}  className="border-none outline-none rounded-none bg-transparent text-[#8f5bf8]">
-   {/* <button className="border-none outline-none rounded-none bg-transparent text-[#8f5bf8]"> */}
-    {item.preview}
-   {/* </button> */}
-   </a>
-   </div>
-      ))
-    }
-    
-        
-   
-       </div>
-  
+    <section className="w-full h-[180vh] bg-[#150b20] flex items-center justify-center">
+      <div className="w-[90%] h-[135vh] flex justify-between items-center  flex-col max-md:h-[168vh]">
+        <div className="max-md:w-full flex justify-center items-center">
+ <strong className="text-[#8f5bf8] sm:text-[30px] md:text-md lg:text-lg xl:text-5xl font-bold ease-in-out duration-700" data-aos="fade-in">My Recent Projects</strong>
+        </div>
+        <div className="w-full flex flex-wrap items- justify-  gap-[30px]">
+          {
+            project.map((item, index) => (
+               <div className="w-[23.1%] flex flex-col max-md:p-3 max-2xl:p-5 rounded-lg  bg-[#140c1c] max-md:w-full max-2xl:gap-3 max-md:gap-0" key={index} data-aos="zoom-in">
+            <img src={item.img} className="w-[100%] h-[40vh] rounded-lg max-md:h-[10vh] hover:scale-105  duration-300 cursor-pointer object-contain items-center justify-center flex bg-[red]" alt="" />
+            <div className="flex justify-between items-center ">
+            <span className="md:text-sm cursor-pointer text-[#8f5bf8] hover:text-[#fff] ease-in-out duration-700">{item.works}</span>
+         <a href={item.live}
+         className="md:text-sm cursor-pointer text-[#8f5bf8] hover:text-[#fff] ease-in-out duration-700"
+         >
+             {item.preview}
+         </a>
+
+            </div>
+          </div>
+            ))
+          }
+                </div>
+                <div className="flex justify-center items-center"><Link to="/"><button className="text-md md:text-md text-[#8f5bf8] hover:text-[#f5f0fe] ease-in-out duration-700">See More</button></Link></div>
 
   </div>
-</section> 
+</section>
 
   )
 }
 
 export default MyRecentProject
-
-
-
-// export default function MyRecentProject() {
-//   const list = [
-//     {
-//       di:1,
-//       name: "divne",
-//       url: "https://valerian-pedro.vercel.app/"
-//     },
-//     {
-//       name: "divne",
-//       url: "https://valerian-pedro.vercel.app/"
-//     },
-//   ];
-
-//   return (
-//     <div>
-//       <ul>
-//         {list.map((item, index) => (
-//           <li key={index}>
-//             <a href={item.url} target="_blank" rel="noopener noreferrer">
-//               {item.name}
-//             </a>
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// }

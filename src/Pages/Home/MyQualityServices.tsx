@@ -30,30 +30,24 @@ const MyQualityServices = () => {
 
   ]
   return (
-    <section className="w-full h-[120vh] bg-[#050709] flex items-center justify-center max-xl:h-[106vh] max-sm:h-[110vh]">
-  <div className="w-[90%] h-[100vh] flex flex-col gap- justify-between items-center bg-[] max-xl:h-[84vh] gap-3 max-sm:h-[100vh] max-sm:gap-7">
-    <div className="flex flex-col items-center justify-center text-center
-    max-2xl:w-[42%] gap-1 max-sm:w-full">
-     <strong className="text-[#8f5bf8] sm:text-[30px] md:text-md lg:text-lg xl:text-5xl font-bold" data-aos="fade-in">My Quality Services</strong>
-      {/* <text className="text-[#d8d5df] sm:text-sm lg:text-lg xl:text-sm text-center max-md:w-full max-sm:w-full" data-aos="fade-in">I put your ideas and thus your wishes in the form of a unique web project that inspires you and your customers.</text> */}
-    </div>
-    <div className="max-xl:h-[70vh] gap-3 max-lg:h-[85vh]">
-   {
-    QualityData.map((data) =>(
-         <div className="justify-between items-center flex w-full max-2xl:xl:p-9 cursor-pointer hover:bg-[#442581] flex-wrap  rounded-xl max-sm:p-2 border-b-[1px] border-[#8f5bf8] max-lg:p-14 max-xl:p-80" key={data.id} data-aos="fade-up">
-      <b className="text-[#d8d5df] sm:text-sm lg:text-lg xl:text-2xl">{data.title}</b>
-      <div className="xl:w-[60%] bg-[]"><span className="sm:text-sm lg:text-lg xl:text-1xl text-[#d8d5df]">{data.subtitle}</span></div>
-      <div className="sm:text-sm lg:text-lg xl:text-1xl text-[#d8d5df]">{data.icons}</div>
-    </div>
-    ))
-   }
-     
-  
-    
-  
-    </div>
-    
+    <section className="w-full h-[125vh] bg-[#000] flex items-center justify-center">
+      <div className="w-[90%] h-[100vh] flex justify-between items-center flex-col">
+        <div className="max-md:w-full flex justify-center items-center">
+ <strong className="text-[#8f5bf8] sm:text-[30px] md:text-md lg:text-lg xl:text-5xl font-bold ease-in-out duration-700" data-aos="fade-in">My Quality Services</strong>
+        </div>
+        <div className="w-full flex flex-col justify-between">
+          {
+            QualityData.map((data) => (
+              <div className="w-full  max-md:w-full border-b-[1px] border-[#8f5bf8] flex flex-wrap justify-between items-center p-[45px] max-md:p-[5px] max-md:h-[23vh] bg-[#673bbf]-500 ease-in-out duration-700 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 cursor-pointer" key={data.id} data-aos="zoom-in-down ">
+            <b className="text-md lg:text-2xl font-extrabold w-[28%] max-md:w-full text-[#fff]">{data.title}</b>
+            <small className="w-[40%] max-md:w-full text-md lg:text-1xl font-medium text-[#f5f0fe]">{data.subtitle}</small>
+            <div className="text-md lg:text-3xl font-bold text-[#fff]">i</div>
 
+          </div>
+        
+            ))
+          }
+        </div>
   </div>
 </section>
   )
