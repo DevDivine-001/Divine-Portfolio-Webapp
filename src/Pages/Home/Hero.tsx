@@ -4,19 +4,27 @@ import Typewriter from 'typewriter-effect';
 import { SiLinkedin } from "react-icons/si"
 import { Link } from "react-router-dom";
 import { IoChevronDownCircleOutline } from "react-icons/io5";
+import img from "../../assets/4974883-hd_1920_1080_25fps.mp4"
 
 const Hero = () => {
   return (
  <main className="flex bg-[#0F0715] h-[90vh] w-full justify-center items-center">
-  <div className="w-[90%] h-[80vh] flex justify-between items-center flex-col">
+  <div className="w-[90%] h-[80vh] flex justify-between items-center flex-col bg-[]">
+    <video 
+    src={img}
+    autoPlay
+          loop
+          muted
+          className="absolute top-0 right-0 w-full h-full object-cover opacity-[20%]"
+    />
   <div className="w-full flex-col flex max-sm:gap-8 max-2xl:gap-7 max-lg:w-full max-md:w-full max-md:h- items-center justify-center h-[70vh]">
 <div className="max-md:h-[23vh] w-full max-md:w-full flex forced-color-adjust-auto items-center justify-center">
-       <span className="font-bold max-md:text-6xl sm:text-6xl lg:text-7xl text-[#dddddd]">
+       <span className="font-bold max-md:text-6xl sm:text-6xl lg:text-7xl text-[#dddddd]" data-aos="fade-up">
        Hello I'm Divine
       </span>
 </div>
    <div className="w-full max-md:h-[23vh] flex forced-color-adjust-auto items-center justify-center">
-        <b className="font-bold text-2xl max-md:text-4xl lg:text-7xl text-[#8f5bf8]">
+        <b className="font-bold text-2xl max-md:text-4xl lg:text-7xl text-[#8f5bf8]" data-aos="fade-up">
           <Typewriter
   options={{
     strings: ['Web Developer + UX Designer'],
