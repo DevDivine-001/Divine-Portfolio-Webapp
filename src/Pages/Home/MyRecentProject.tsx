@@ -74,7 +74,7 @@ const MyRecentProject = () => {
       <div className="max-md:w-full flex justify-center items-center">
  <strong className="text-[#8f5bf8] sm:text-[30px] md:text-md lg:text-lg xl:text-5xl font-bold ease-in-out duration-700" data-aos="fade-in">My Recent Projects</strong>
         </div>
-        <div className="w-full max-md:h-[220vh] flex items-center  justify-between flex-wrap gap-[66px] max-2xl:gap-[50px] max-md:gap-6 max-2xl:h-[130vh]">
+        <div className="w-full max-md:h-[220vh] flex items-center  justify-between flex-wrap gap-[66px] max-2xl:gap-[50px] max-md:gap-6 max-2xl:h-[135vh]">
         {
           project.map((data, index) => (
 <div className="w-[30%] max-md:w-full" data-aos="zoom-in">
