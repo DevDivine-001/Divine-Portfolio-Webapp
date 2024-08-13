@@ -1,6 +1,6 @@
 import { HiOutlineAcademicCap } from "react-icons/hi"
 import { IoShieldCheckmarkOutline } from "react-icons/io5"
-import { LiaGraduationCapSolid } from "react-icons/lia"
+// import { LiaGraduationCapSolid } from "react-icons/lia"
 
 
 const MyExperience = () => {
@@ -23,7 +23,7 @@ const MyExperience = () => {
       id:3,
       year:"2024",
       role:"Role: Front-End & Back-end",
-      path:"Projects: MERN-STACK"
+      path:"Projects:Real-Estate, The tools i use MERN-STACK"
 
     },
     {

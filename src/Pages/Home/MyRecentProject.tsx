@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom"
+
 import school from ".././../assets/Screenshot 2024-07-30 120106.png"
-import pic from "../../assets/Screenshot 2024-07-30 120943.png"
 
 
 
@@ -70,17 +69,17 @@ const project  = [
 
 const MyRecentProject = () => {
   return (
-    <section className="w-full h-[160vh] bg-[#0f0715] flex items-center justify-center max-md:h-[200vh]">
-      <div className="w-[90%] h-[145vh] justify-between items-center  max-md:h-[185vh] flex-col flex">
+    <section className="w-full h-[160vh] bg-[#0f0715] flex items-center justify-center max-md:h-[250vh]">
+      <div className="w-[90%] h-[145vh] justify-between items-center  max-md:h-[230vh] flex-col flex">
       <div className="max-md:w-full flex justify-center items-center">
  <strong className="text-[#8f5bf8] sm:text-[30px] md:text-md lg:text-lg xl:text-5xl font-bold ease-in-out duration-700" data-aos="fade-in">My Recent Projects</strong>
         </div>
-        <div className="w-full max-md:h-[178vh] flex items-c justify-between flex-wrap max-2xl:gap-[60px] max-md:gap-6 ">
+        <div className="w-full max-md:h-[220vh] flex items-center  justify-between flex-wrap gap-[66px] max-2xl:gap-[50px] max-md:gap-6 max-2xl:h-[130vh]">
         {
           project.map((data, index) => (
 <div className="w-[30%] max-md:w-full" data-aos="zoom-in">
                 <div className="items-center justify-center flex flex-col bg-[#140c1c] max-md:w-full p-4 max-md:p-3 rounded-lg gap-2 hover:scale-110 ease-in-out duration-700 cursor-pointer" key={index}>
-             <img src={data.img} alt="" className="w-[100%] h-[300px] max-md:h-[130px] rounded-xl"/>
+             <img src={data.img} alt="" className="w-[100%] h-[300px] max-md:h-[160px] rounded-xl"/>
          <div className="w-full justify-between items-center flex">  
 
              <span className="md:text-sm cursor-pointer text-[#8f5bf8] hover:text-[#fff] ease-in-out duration-700">{data.works}</span>
