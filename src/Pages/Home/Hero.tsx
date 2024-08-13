@@ -9,7 +9,7 @@ import img from "../../assets/4974883-hd_1920_1080_25fps.mp4"
 const Hero = () => {
   return (
  <main className="flex bg-[#0F0715] h-[90vh] w-full justify-center items-center">
-  <div className="w-[90%] h-[80vh] flex justify-between items-center flex-col bg-[]">
+  <div className="w-[90%] h-[80vh] flex justify-between items-center flex-col ">
     <video 
     src={img}
     autoPlay
@@ -19,7 +19,7 @@ const Hero = () => {
     />
   <div className="w-full flex-col flex max-sm:gap-8 max-2xl:gap-7 max-lg:w-full max-md:w-full max-md:h- items-center justify-center h-[70vh]">
 <div className="max-md:h-[23vh] w-full max-md:w-full flex forced-color-adjust-auto items-center justify-center">
-       <span className="font-bold max-md:text-6xl sm:text-6xl lg:text-7xl text-[#dddddd]" data-aos="fade-up">
+       <span className="font-bold max-md:text-6xl sm:text-6xl lg:text-7xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 text-[#dddddd]" data-aos="fade-up">
        Hello I'm Divine
       </span>
 </div>

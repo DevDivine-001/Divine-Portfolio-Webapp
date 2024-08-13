@@ -77,8 +77,8 @@ const MyExperience = () => {
         Experience.map((data) =>(
                 <div className="w-full h- bg-[#140c1c] flex flex-col  justify-center max-md:p-4 p-10 rounded-lg hover:bg-[#8f5bf8] ease-in-out duration-700 cursor-pointer max-lg:w-[100%]" key={data.id} data-aos="fade-down">
           <b className="text-[#dddddd] md:text-md font-medium">{data.year}</b>
-          <b className="text-[#fff] md:text-xl font-bold"> {data.role}</b>
-          <b className="text-[#fff] md:text-sm font-medium">{data.path}</b>
+          <b className="text-[#dddddd] md:text-xl font-bold"> {data.role}</b>
+          <b className="text-[#dddddd] md:text-sm font-medium">{data.path}</b>
 
         </div>
    
@@ -95,8 +95,8 @@ const MyExperience = () => {
         education.map((data) =>(
                 <div className="w-full h- bg-[#140c1c] flex flex-col  justify-center max-md:p-4 p-10 rounded-lg hover:bg-[#8f5bf8] ease-in-out duration-700 cursor-pointer max-lg:w-[100%]" key={data.id} data-aos="fade-up">
           <b className="text-[#dddddd] md:text-md font-medium">{data.year}</b>
-          <b className="text-[#fff] md:text-xl font-bold"> {data.role}</b>
-          <b className="text-[#fff] md:text-sm font-medium">{data.path}</b>
+          <b className="text-[#dddddd] md:text-xl font-bold"> {data.role}</b>
+          <b className="text-[#dddddd] md:text-sm font-medium">{data.path}</b>
 
         </div>
   ))

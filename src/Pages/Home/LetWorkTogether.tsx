@@ -20,7 +20,7 @@ const LetWorkTogether = () => {
     },
   ] 
   return (
-    <section className="w-[100%] h-[120vh] justify-center items-center flex bg-[#050709]">
+    <section className="w-full h-[120vh] justify-center items-center flex bg-[#050709]">
       <div className="flex w-[90%] h-[100vh] justify-between items-center max-sm:gap-4 max-md:gap-3 max-lg:gap-4 max-xl:flex-col max-sm:flex-col ">
         <form action="" className="w-[45%] justify-center items-center gap-5 flex-col bg-[#140c1c] flex rounded-xl p-7 max-sm:w-full max-sm:gap-3 max-lg:w-full max-xl:w-full" data-aos="slide-right">
         <div className="flex flex-col w-[85%] gap-4 h-[17vh] justify-center">  <b className="text-[#8f5bf8] font-bold text-sm xl:text-[40px] justify-center items-center max-sm:w-full">Let’s work together!</b>
@@ -51,7 +51,7 @@ const LetWorkTogether = () => {
             </div>
             <div className="flex-col flex max-lg:w-[60%]">
               <span className="text-[#f5f0fe] sm:text-sm xl:text-1xl md:text-md lg:text-lg">{data.title}</span>
-              <b className="text-[#333] max-sm:text-sm max-lg:text-[25px] max-md:text-sm max-xl:text-md">{data.inFor}</b>
+              <b className="text-[#f5f0fe] max-sm:text-sm max-lg:text-[25px] max-md:text-sm max-xl:text-md">{data.inFor}</b>
 
             </div>
 
