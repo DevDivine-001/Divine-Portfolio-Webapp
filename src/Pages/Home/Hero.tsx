@@ -15,7 +15,7 @@ const Hero = () => {
     autoPlay
           loop
           muted
-          className="absolute top-0 right-0 w-full h-full object-cover opacity-20"
+          className="absolute top-0 right-0 w-full h-full object-cover opacity-80"
     />
   <div className="w-full flex-col flex max-sm:gap-8 max-2xl:gap-7 max-lg:w-full max-md:w-full max-md:h- items-center justify-center h-[70vh]">
 <div className="max-md:h-[23vh] w-full max-md:w-full flex forced-color-adjust-auto items-center justify-center">
