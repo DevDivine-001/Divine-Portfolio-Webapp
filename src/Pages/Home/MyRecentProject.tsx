@@ -45,8 +45,8 @@ const project  = [
     id:6,
     img:school,
      preview:"Live Preview",
-     works:"Dirt2school.2",
-     live:"https://dirt2school-web-app.web.app/"
+     works:"Data-webapp",
+     live:"https://data-webapp.web.app/"
   },
   // {
   //   id:7,

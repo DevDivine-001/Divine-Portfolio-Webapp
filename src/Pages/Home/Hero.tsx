@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 import { SiLinkedin } from "react-icons/si"
 import { Link } from "react-router-dom";
 import { IoChevronDownCircleOutline } from "react-icons/io5";
-import img from "../../assets/4974883-hd_1920_1080_25fps.mp4"
+import img from "../../assets/4974883-hd_1920_1080_25fps-.mp4"
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
     autoPlay
           loop
           muted
-          className="absolute top-0 right-0 w-full h-full object-cover opacity-[20%]"
+          className="absolute top-0 right-0 w-full h-full object-cover opacity-20"
     />
   <div className="w-full flex-col flex max-sm:gap-8 max-2xl:gap-7 max-lg:w-full max-md:w-full max-md:h- items-center justify-center h-[70vh]">
 <div className="max-md:h-[23vh] w-full max-md:w-full flex forced-color-adjust-auto items-center justify-center">
